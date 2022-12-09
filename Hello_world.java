@@ -1,8 +1,15 @@
 public class Hello_world
 {
-    String fname = "Bekalu";
-    String lname = "Endrias";
-    int age = 20;
+    String fname;
+    String lname;
+    int age;
+
+    public Hello_world(String str1, String str2, int num)
+    {
+        this.fname = str1;
+        this.lname = str2;
+        this.age = num;
+    }
 
     static void myMethod()
     {
@@ -11,7 +18,7 @@ public class Hello_world
 
     public static void main(String[] args)
     {
-        Hello_world obj = new Hello_world();
+        Hello_world obj = new Hello_world("Bekalu", "Endrias", 20);
         myMethod();
         System.out.println("My name is " + obj.fname + " " + obj.lname);
         System.out.println("I am " + obj.age + " years old.");    
