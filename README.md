@@ -1,2 +1,1 @@
-# jit-oop_java
-contains Jimma University lab projects
+# Object Oriented Programming with java
