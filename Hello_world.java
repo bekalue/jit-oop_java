@@ -20,6 +20,7 @@ public class Hello_world
     {
         Hello_world obj = new Hello_world("Bekalu", "Endrias", 20);
         myMethod();
+        System.out.println("--------------------------");
         System.out.println("My name is " + obj.fname + " " + obj.lname);
         System.out.println("I am " + obj.age + " years old.");    
     }
