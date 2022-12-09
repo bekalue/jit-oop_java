@@ -15,6 +15,6 @@ public class varargs
     {
         int x;
         x = product(3, 4);
-        System.out.println(x);
+        System.out.println(x); //output:- 12
     }
 }
